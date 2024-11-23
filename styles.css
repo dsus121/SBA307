@@ -1,0 +1,22 @@
+body {
+    background-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(249, 253, 4)
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+
+.links {
+    position: inherit;
+    display:flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+}
