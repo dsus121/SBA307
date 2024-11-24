@@ -4,16 +4,20 @@
 
 
 body {
-    background-color: pink;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #edbe1c;
+    background-color:#131210;
+      font-family: "Cormorant", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color: #edbe1c;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
+    padding: 1rem;
     justify-content: center;
 }
 
