@@ -53,3 +53,48 @@ a:hover {
 a:active {
     color: #CDA6C1;
 }
+.hornsup {
+    height: 4rem;
+    align-content: center;
+    justify-self: center;
+}
+.rotate {
+    width: 5rem;
+    margin: auto;
+    position: relative;
+    transform-origin: top bottom;
+    animation: spin 12s infinite linear;  
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .form-1 {
+    margin-left: 5rem;
+    margin-top: 3rem;
+  }
+
+  label {
+    margin: 0.4rem;
+    padding: 6px;
+  }
+
+  legend {
+    background-color: #000;
+    color: #fff;
+    padding: 6px 6px;
+  }
+  
+  input {
+    margin: 0.4rem;
+  }
+
+h3 {
+    margin-top: 100px;
+}
