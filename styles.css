@@ -1,11 +1,16 @@
+.navbar-brand {
+    padding-left: 2em;
+}
+
+
 body {
-    background-color: grey;
+    background-color: pink;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(249, 253, 4)
+    color: #edbe1c;
 }
 
 .container {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 3rem;
@@ -15,8 +20,32 @@ body {
 
 .links {
     position: inherit;
-    display:flex;
+    display: flex;
     flex-direction: row;
     gap: 3rem;
     justify-content: center;
+    color: #fec00f;
+    text-decoration: none;
+
+}
+
+a:link {
+    color: #fec00f;
+    text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+    color: #B39747;
+}
+
+/* mouse over link */
+a:hover {
+    color: #90191C;
+}
+
+/* selected link */
+a:active {
+    color: #CDA6C1;
 }
