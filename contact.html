@@ -34,9 +34,21 @@
   </nav>
 </header>
 
-<!-- <img src="./imgs/sd_sg_up_yellow.png" width="30" height="30" class="d-inline-block align-top" alt="Sunrise Drive logo"> -->
-
 <body>
+<div class="container" style="flex-wrap: nowrap;">
+  <img src="./imgs/sd_animation.gif" width="25%">
+  <style>
+  body {
+    background-color: whitesmoke;
+  }
+  </style>
+  <h5 style="text-align: right; margin-right: 3rem; padding: 10px;">
+    Get in touch with the band via social media or email a member directly.
+    <a href="https://www.facebook.com/sunrisedr/"><img src="./imgs/icon_yt.png"></a>
+    <a href="https://www.instagram.com/sunrisedrive.co/"><img src="./imgs/icon_ig.png"></a>
+    <a href="https://www.youtube.com/@sunrisedrive3943"><img src="./imgs/icon_fb.png"></a>
+  </h5>
+</div>
 
 
   <table class="table table-dark">
@@ -78,7 +90,7 @@
   </table>
 
 
-  <!-- the second form -->
+  <!-- the FIRST form -->
   <div class="form-1">
     <fieldset>
       <legend>I want to ...</legend>
@@ -116,7 +128,7 @@
       voteButton.addEventListener('click', () => {
         const selectedLyric = document.querySelector('input[name="lyric"]:checked');
 
-        if (selectedFruit) {
+        if (selectedLyric) {
           switch (selectedLyric.value) {
             case 'rock':
               rockCount++;
